@@ -18,9 +18,8 @@ Activate via `source acrylvenv/bin/activate`
 
 With the venv active, install with `pip3 install -r requirements.txt`
 
-### Update Secret
 
-## Find Secret
+### Set Secret
 
 Use this link from [OneTimeSecret](https://onetimesecret.com/secret/4v2xt843u3oiq88kqegkzawmnw989oh). Note this will only be valid once.
 
