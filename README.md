@@ -41,6 +41,8 @@ I tried to keep the directory structure as simple as possible for quick clone an
 
 Otherwise I would've probably built out more diretories for the supporting methods, as well as testing files.
 
-Notes, the first time you run the application, you will need to sign in via Google. Upon successfull authentication, a `token.json` file will be created.
+Note, the first time you run the application, you will need to sign in via Google. Upon successfull authentication, a `token.json` file will be created.
+
+Also please ensure you are not running anything on `:8080` prior to running this application.
 
 **This project and all work is by Chris Caruso and has been shared with Acryl Data as a coding challenge**
