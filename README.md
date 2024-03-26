@@ -37,11 +37,11 @@ Run the script from the root directory with `python3 main.py`
 
 ## Notes
 
-I tried to keep the directory structure as simple as possible for quick clone and testing.
+I tried to keep the directory structure as simple as possible for quick cloning and testing.
 
-Otherwise I would've probably built out more diretories for the supporting methods, as well as testing files.
+Otherwise, I would've probably built out more directories for the supporting methods, as well as testing files.
 
-Note, the first time you run the application, you will need to sign in via Google. Upon successfull authentication, a `token.json` file will be created.
+Note, the first time you run the application, you will need to sign in via Google. Upon successful authentication, a `token.json` file will be created.
 
 Also please ensure you are not running anything on `:8080` prior to running this application.
 
