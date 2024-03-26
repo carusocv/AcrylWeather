@@ -6,7 +6,7 @@ Requires Python 3
 
 ### Create and activate a virtual env
 
-Navigate into the root directory ex: `cd ~/Dev/git/arcylWeatherChallenge`
+Navigate into the root directory ex: `cd ~/Dev/git/AcrylWeather`
 
 Create a virtual env ex: `python3 -m venv acrylvenv`
 
