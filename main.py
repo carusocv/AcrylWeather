@@ -14,14 +14,11 @@ def main():
         latitudes, longitudes = zip(*read_coordinates)
 
         # Query the weather API for the given coordinates
-        responses = weather_api.query_weather_api(list(longitudes), list(latitudes))
-
-        # Light logic here, could very well move this to write_weather_data
-        # Mostly kept this here to keep the scope of read_coordinates to this file.
+        responses = weather_api.query_weather_api(longitudes, latitudes)
         
         # Setting values list and then appending each of the weather stats
         values = []
-        for response, (latitude, longitude) in zip(responses, read_coordinates):
+        for response in responses:
             current = response.Current()
             # Update temperature to the nearest whole number + '°F'
             temperature = str(round(current.Variables(0).Value())) + '°F'
