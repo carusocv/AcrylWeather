@@ -21,7 +21,7 @@ With the venv active, install with `pip3 install -r requirements.txt`
 
 ### Set Secret
 
-Use this link from [OneTimeSecret](https://onetimesecret.com/secret/4v2xt843u3oiq88kqegkzawmnw989oh). Note this will only be valid once.
+Use this link from [OneTimeSecret](https://onetimesecret.com/secret/fte8b8t1n5biygzmzqkp4ptrurdcako) - Updated Thur March 28. Note this will only be valid once.
 
 Add the secret to `client_secret` value in `credentails.json`
 
